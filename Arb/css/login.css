@@ -1,0 +1,58 @@
+* { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+body { margin: 0; background: #ffffff; padding: 25px; color: #1a1a1b; line-height: 1.4; }
+
+.wrap { max-width: 450px; margin: 0 auto; }
+
+/* Language Selector */
+.lang { display: flex; align-items: center; justify-content: flex-end; color: #444; font-size: 15px; margin-bottom: 35px; gap: 5px; }
+.lang svg { width: 20px; height: 20px; color: #666; }
+
+/* Title */
+.title { font-size: 34px; font-weight: 700; margin-bottom: 35px; color: #22262e; letter-spacing: -0.5px; }
+
+/* Labels */
+.label { display: block; font-size: 15px; font-weight: 500; color: #444; margin-bottom: 12px; }
+
+/* Phone Input Box */
+.phone { 
+    display: flex; align-items: center; border: 1px solid #ffd83d; 
+    border-radius: 10px; padding: 14px 16px; margin-bottom: 22px; 
+    background: #fff;
+}
+.phone .flag { width: 24px; margin-right: 8px; border-radius: 2px; }
+.phone .code { border-right: 1px solid #eeeeee; padding-right: 12px; margin-right: 12px; color: #333; font-size: 16px; }
+
+/* Password Head Area */
+.pw-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.forgot { color: #f9c21b; text-decoration: none; font-size: 15px; font-weight: 500; }
+
+/* Password Input Box (Gray background as per image) */
+.password-box { 
+    display: flex; align-items: center; border: 1px solid #f2f2f2; 
+    background: #f7f7f7; border-radius: 10px; padding: 14px 16px; margin-bottom: 40px; 
+    position: relative;
+}
+
+input { border: none; outline: none; width: 100%; font-size: 16px; background: transparent; color: #333; }
+input::placeholder { color: #cccccc; font-weight: 400; }
+
+/* Eye Button (Exact Image Match) */
+.eye-btn { 
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    padding-left: 10px;
+}
+.eye-btn svg { width: 22px; height: 22px; color: #b0b0b0; }
+
+/* Buttons */
+.btn { 
+    width: 100%; padding: 18px; border-radius: 10px; font-size: 17px; 
+    font-weight: 600; border: none; cursor: pointer; margin-bottom: 18px; 
+    transition: 0.2s;
+}
+.btn.primary { background: #f9c21b; color: #000; }
+.btn.primary:disabled { opacity: 0.6; cursor: not-allowed; }
+.btn.secondary { background: #eeeff3; color: #4a4d54; }
+
+/* Bottom Text */
+.register { text-align: left; margin-top: 30px; font-size: 15px; color: #1a1a1a; font-weight: 400; }
+.register span { color: #f9c21b; font-weight: 600; margin-left: 5px; cursor: pointer; }
