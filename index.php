@@ -1,2 +1,2 @@
 <?php
-echo "SERVER OK";
+require __DIR__ . '/Arb/index.php';
