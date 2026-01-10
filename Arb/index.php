@@ -1,5 +1,5 @@
 <?php
-echo "Arb server running<br>";
+echo "Server Ok<br>";
 require __DIR__ . '/home.php';
 
 <!DOCTYPE html>
