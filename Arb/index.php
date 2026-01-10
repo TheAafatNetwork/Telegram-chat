@@ -1,3 +1,6 @@
+<?php
+echo "Arb server running<br>";
+require __DIR__ . '/home.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
